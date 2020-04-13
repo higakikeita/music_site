@@ -213,3 +213,11 @@ footer a {
   padding-left: 15px;
   font-size: 50px;
 }
+.footer-bottom {
+  margin-top: 50px;
+}
+
+.copyright {
+  text-align: right;
+  color: #fff;
+}
