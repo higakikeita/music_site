@@ -63,6 +63,20 @@
       <div class="swiper-pagination"></div>
     </div> <!-- swiper-container -->
   </section> <!-- swiper -->
+  <script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+      speed: 1000, // スピード設定 1000=1秒
+      autoplay: true, // 自動切り替え trueで有効 falseで無
+      loop: true, // ループ trueで有効 falseで無効
+      navigation: {
+        nextEl: '.swiper-button-next', // 次のボタンを表示する要素指定
+        prevEl: '.swiper-button-prev' // 前のボタンを表示する要素指定
+      },
+      pagination: {
+        el: '.swiper-pagination', // ページネーションを表示する要素指定
+      }
+    });
+  </script>
 </body>
 
 </html>
